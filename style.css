@@ -1,0 +1,69 @@
+*::selection{
+    background-color: #EF9D71;
+}
+@font-face {
+    font-family: MachinaBold;
+    src: url(/659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
+}
+@font-face {
+    font-family: MachinaLight;
+    src: url(/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+}
+:root{
+    --black:#000;
+    --white:#fff;
+    --salmon:#EF9D71;
+    --cyan:#AEDEE0;
+    --dsalmon:#3d281d;
+    --dcyan:#3d4d4e;
+}
+.Machina-light{
+    font-family: MachinaLight;
+}
+.Machina-bold{
+    font-family: MachinaBold;
+}
+body[theme="black"]{
+    background-color:var(--black);
+}
+body[theme="black"] .section{
+    color: var(--white);
+}
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+body[theme="cyan"] .section{
+    color: var(--dcyan);
+}
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+body[theme="salmon"] .section{
+    color:var(--dsalmon);
+}
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="white"] .section{
+    color: var(--black);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    transition: background-color ease 0.3s;
+}
+.email input{
+    padding:  0 25px;
+}
+
+.video-div{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+.list-elem:hover .hover-effect{
+    width: 100%;
+    transition: all ease 0.7s;
+}
+.list-elem:hover{
+    color: #fff;
+}
