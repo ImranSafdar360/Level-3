@@ -3,11 +3,11 @@
 }
 @font-face {
     font-family: MachinaBold;
-    src: url(/659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
+    src: url(./659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
 }
 @font-face {
     font-family: MachinaLight;
-    src: url(/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+    src: url(./659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
 }
 :root{
     --black:#000;
